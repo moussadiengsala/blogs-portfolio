@@ -3,4 +3,20 @@ title: 'Just Testing'
 date: '2023-04-28'
 tags: ['next.js','nextjs','new']
 ---
-hello
+<section id="home" className='border-b-2 border-custom-light-90 pb-12 w-full'>
+    <div className="flex flex-col justify-center items-center space-y-6 tablet:items-start">
+        <TagsAvailablity isAvailable={true} />
+        <HeroPresentation />
+        <div className="text-center space-y-1 tablet:text-left">
+            <div className="text">💡 Passionate about creating innovative web solutions</div>
+            <div className="text">🌐 Building dynamic and responsive web applications</div>
+            <div className="text">📈 Constantly learning and staying up-to-date with industry trends</div>
+            <div className="text">🔍 Exploring new technologies to bring creative solutions </div>
+            <div className="text">📧 Let&lsquo;s connect and collaborate on exciting projects!</div>                  
+        </div>
+        <div className="flex flex-col item-center justify-center gap-4 w-full tablet:space-x-2 tablet:justify-start tablet:flex-row">
+            <PrimaryButton href="#" label="read more" />
+            <SecondaryButton href="./Moussa Dieng CV Resume.pdf" label="read more"/>
+        </div>        
+    </div>
+</section>     
